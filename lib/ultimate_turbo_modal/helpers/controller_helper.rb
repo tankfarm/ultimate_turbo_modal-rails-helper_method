@@ -9,7 +9,7 @@ module UltimateTurboModal::Helpers
     end
 
     included do
-      return unless defined?(helper_method)
+      break unless defined?(helper_method)
       helper_method :inside_modal?
     end
   end
