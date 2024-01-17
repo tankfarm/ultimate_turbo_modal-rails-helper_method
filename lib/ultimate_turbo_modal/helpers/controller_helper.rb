@@ -9,8 +9,9 @@ module UltimateTurboModal::Helpers
     end
 
     included do
-      break unless defined?(helper_method)
-      helper_method :inside_modal?
+      if defined?(helper_method)
+        helper_method :inside_modal?
+      end
     end
   end
 end
