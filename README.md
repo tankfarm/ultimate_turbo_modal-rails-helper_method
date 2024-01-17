@@ -1,3 +1,7 @@
+# NOTE FROM TANKFARM
+
+Trying to fix an issue that prevents this from working in heroku deployed environments
+
 # The Ultimate Turbo Modal for Rails (UTMR)
 
 There are MANY Turbo/Hotwire/Stimulus modal dialog implementations out there, and it seems like everyone goes about it a different way. However, as you may have learned the hard way, the majority fall short in different, often subtle ways. They generally cover the basics quite well, but do not check all the boxes for real-world use.
