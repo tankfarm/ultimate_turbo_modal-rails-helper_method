@@ -1,6 +1,15 @@
 # NOTE FROM TANKFARM
 
-Trying to fix an issue that prevents this from working in heroku deployed environments
+Trying to fix an issue that prevents this from working in heroku deployed environments.
+
+The error that triggers is
+
+```
+undefined method `helper_method' for ActionController::API:Class`
+```
+
+which appears to be caused when a specific active record concern is included in an API controller.
+
 
 # The Ultimate Turbo Modal for Rails (UTMR)
 
